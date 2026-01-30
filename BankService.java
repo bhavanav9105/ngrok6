@@ -27,7 +27,7 @@ public class BankService {
 
 		BankAccount acc = new BankAccount(5500);
 
-		acc.deposit(600);
+		acc.deposit(500);
 		System.out.println("bal after deposit : "+ acc.bal);
 
 
@@ -38,4 +38,5 @@ public class BankService {
 	}
 }
 		
+
 
